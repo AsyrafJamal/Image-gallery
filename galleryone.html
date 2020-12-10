@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+
+	<style type="text/css">
+		/* Modify the backgorund color */ 
+
+	.navbar-inverse { 
+    background-color: #2c3e50;
+    text-decoration-color:#ECF0F1;
+}
+
+	/* .navbar-text { 
+            color: #ECF0F1; 
+     } */
+
+.image1{
+	 background-image: url(https://images.unsplash.com/photo-1537153960513-344d9f2e8216
+  						?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+
+}
+.image2 {
+  background-image: url(https://images.unsplash.com/photo-1470219556762-1771e7f9427d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+}
+
+.image3 {
+  background-image: url(https://images.unsplash.com/photo-1519834089823-08a494ba5a12?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+}
+.image4 {
+  background-image: url(https://images.unsplash.com/photo-1554899199-f6d99e6be6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+}
+.image5 {
+  background-image: url(https://images.unsplash.com/photo-1518540329668-417feba873ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+.image6 {
+  background-image: url(https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+.image7 {
+  background-image: url(https://images.unsplash.com/photo-1532745609869-16df0d287f3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+.image8 {
+  background-image: url(https://images.unsplash.com/photo-1557409518-691ebcd96038?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+}
+.image9 {
+  background-image: url(https://images.unsplash.com/photo-1542114740389-9b46fb1e5be7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+}
+
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+	</style>
+
+
+</head>
+<body>
+
+
+	<nav class="navbar navbar-inverse navbar-fix-top ">
+		<div class="container">
+			<div class= "navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+				<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> MOMENTO</a>			
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1><i class="far fa-images"></i></span> Cities Inspo</h1>
+			<p>Cities I have deep connection with and still halfway to check the list off!</p>
+		</div>
+	</div>
+<!-- ==========================================================================================
+ -->
+<!-- 
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image1"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image2"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image3"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image4"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image5"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image6"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image7"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image8"></div>
+      </div>
+    </div>
+
+     <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image9"></div>
+      </div>
+    </div>
+
+  </div>
+</div> -->
+
+<div class="container">
+	<div class="row">
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail image">	
+					<img src="https://images.unsplash.com/photo-1537153960513-344d9f2e8216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+				</div>
+			</div>
+
+
+
+
+<!--   <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="image image2"></div>
+      </div>
+    </div> -->
+
+
+
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail image image2">	
+				<img src="https://images.unsplash.com/photo-1470219556762-1771e7f9427d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail image image3">	<!-- 
+				<img src="https://images.unsplash.com/photo-1519834089823-08a494ba5a12?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"> -->
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail image image4">	<!-- 
+				<img src="https://images.unsplash.com/photo-1519834089823-08a494ba5a12?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"> -->
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail image">	
+				<img src="https://images.unsplash.com/photo-1518540329668-417feba873ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail image">	
+				<img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">	
+				<img src="https://images.unsplash.com/photo-1532745609869-16df0d287f3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">	
+				<img src="https://images.unsplash.com/photo-1557409518-691ebcd96038?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail image image9" ><!-- /div> <div class="image image9">></div> --><!-- 
+				<img src="https://images.unsplash.com/photo-1542114740389-9b46fb1e5be7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80"> -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+	</div>
+		
+
+<script
+  src="http://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
